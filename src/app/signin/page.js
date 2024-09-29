@@ -1,5 +1,5 @@
-import Link from 'next/link';
-import SignInForm from '../components/SignInForm';
+import Link from "next/link";
+import SignInForm from "../components/SignInForm";
 
 export default function SignIn() {
   return (
@@ -8,7 +8,10 @@ export default function SignIn() {
         <h1 className="text-2xl font-bold mb-6 text-center">Sign In</h1>
         <SignInForm />
         <p className="mt-4 text-center">
-          Don't have an account? <Link href="/signup" className='text-blue-500 hover:underline'>Sign Up</Link>
+          Don&apos;t have an account?{" "}
+          <Link href="/signup" className="text-blue-500 hover:underline">
+            Sign Up
+          </Link>
         </p>
       </div>
     </div>
